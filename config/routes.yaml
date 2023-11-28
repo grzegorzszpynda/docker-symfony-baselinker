@@ -1,0 +1,4 @@
+order_get_orders:
+    path: '/orders'
+    controller: 'App\Controller\OrderController::getOrders'
+    methods: [ 'GET' ]
